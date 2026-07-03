@@ -1,7 +1,11 @@
+meta:
+  toolchain:
+    name: docker
+
 services:
   - name: moderator-bot
     type: app
     port: 8080
     env:
       - name: DISCORD_TOKEN
-        value: ""  # Вставьте токен в настройках Amvera
+        value: ""
